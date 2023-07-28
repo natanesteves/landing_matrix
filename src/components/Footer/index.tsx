@@ -1,5 +1,5 @@
 // Icons
-import { SiInstagram, SiTiktok, SiDiscord, SiTwitter } from "react-icons/si";
+import { SiInstagram, SiTiktok, SiDiscord, SiTwitter, SiYoutube } from "react-icons/si";
 
 // React
 import { useState, useRef } from "react";
@@ -50,8 +50,8 @@ export function Header() {
           </a>
          
          
-          <a href="" className="boxSocials">
-            <SiTwitter />
+          <a href="https://www.youtube.com/watch?v=_A-0QlXuR5U" className="boxSocials">
+            <SiYoutube />
           </a>
           
         </div>
