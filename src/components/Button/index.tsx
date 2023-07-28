@@ -7,7 +7,7 @@ type ButtonProps = {
 
 export function Button(props: ButtonProps) {
   return (
-    <button type="button" className="mainButton">
+    <button type="button" className="mainButton" >
       <span>{props.text}</span>
     </button>
   );

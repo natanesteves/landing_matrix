@@ -37,8 +37,8 @@ export function Home() {
                Cristianismo. A obra trata de nossa sobrevivência 
                individual e como espécie humana, neste momento 
                dramático da história de nossa humanidade.
-            </p>
-            <Button text="Compre" /> 
+            </p><a href="https://linktr.ee/NatanEsteves">
+            <Button  text="Compre"  /> </a>
           </div>
           <div className="imgPresentation"></div>  
           
