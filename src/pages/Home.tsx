@@ -9,7 +9,12 @@ import "../styles/pages/home.scss";
 import { FiHeart } from "react-icons/fi";
 import { SiInstagram, SiTwitter } from "react-icons/si";
 
-// Images
+// Images / video
+
+import YouTube, { YouTubeProps } from "react-youtube";
+
+
+
 
 
 export function Home() {
@@ -39,13 +44,14 @@ export function Home() {
                dramático da história de nossa humanidade.
             </p><a href="https://linktr.ee/NatanEsteves">
             <Button  text="Compre"  /> </a>
+          
           </div>
           <div className="imgPresentation"></div>  
           
-          
+           
         </div>
-
-       
+       <div className="video" >
+       <YouTube videoId="_A-0QlXuR5U" style={{ alignSelf: 'stretch', height: 300 }}  /></div>
       </section>
 {/*  
       <section className="history" id="history">

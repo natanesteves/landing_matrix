@@ -15,6 +15,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 
 
+
 export function Header() {
   const header = useRef(null);
   const propose = useRef(null);
@@ -40,6 +41,8 @@ export function Header() {
     }
   }
 
+  
+
   return (
     <header id="header">
       <div className="container">
@@ -50,9 +53,7 @@ export function Header() {
           </a>
          
          
-          <a href="https://www.youtube.com/watch?v=_A-0QlXuR5U" className="boxSocials">
-            <SiYoutube />
-          </a>
+            
           
         </div>
       
