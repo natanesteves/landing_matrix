@@ -13,7 +13,16 @@ import { SiInstagram, SiTwitter } from "react-icons/si";
 
 import YouTube, { YouTubeProps } from "react-youtube";
 
-
+const opts: YouTubeProps["opts"] = {
+  width: "100%" ,
+  heigth: "200px",
+  
+  playerVars: {
+    // https://developers.google.com/youtube/player_parameters
+    autoplay: 1,
+    
+  },
+};
 
 
 
@@ -51,7 +60,7 @@ export function Home() {
            
         </div>
        <div className="video" >
-       <YouTube videoId="_A-0QlXuR5U" style={{ alignSelf: 'stretch', height: 300 }}  /></div>
+       <YouTube videoId="_A-0QlXuR5U" opts={opts} /></div>
       </section>
 {/*  
       <section className="history" id="history">
